@@ -1,6 +1,6 @@
 const express = require("express")
 const bodyParser = require('body-parser');
-const HTTP_PORT = 8080
+const HTTP_PORT = 8014;
 const app = express();
 const qr = require('./qr.js');
 
@@ -10,7 +10,6 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use(bodyParser.json());
-
 app.get("/api/v1/health", async (req, res, next) => {
     res.json({
         "message": "Ok",
@@ -20,14 +19,16 @@ app.get("/api/v1/health", async (req, res, next) => {
 });
 
 app.post("/api/v1/qr", async (req, res, next) => {
-    let body = req.body;
-    let url = body.url;
-    let QrCode = await qr(url);
+    const body = req.body;
+    const url = body.url;
+    const QrCode = await qr(url);
     res.json({
         QrCode
     })
 });
 
 app.listen(HTTP_PORT, () => {
-    console.log("Server running on port %PORT%".replace("%PORT%", HTTP_PORT))
+    console.log(`Server running on port ${HTTP_PORT}`)
 });
+
+module.exports = app;
