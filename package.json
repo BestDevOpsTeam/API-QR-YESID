@@ -1,5 +1,5 @@
 {
-  "name": "api-qr-Yesid",
+  "name": "api-qr-yesid",
   "version": "1.0.0",
   "description": "api de qr",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "keywords": [
     "qr"
   ],
-  "author": "Yesid",
+  "author": "yesid",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BestDevOpsTeam/API-QR-JuanParra/issues"
