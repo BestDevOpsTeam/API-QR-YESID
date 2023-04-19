@@ -1,5 +1,5 @@
 {
-  "name": "api-qr-yesid",
+  "name": "api-qr-juanparra",
   "version": "1.0.0",
   "description": "api de qr",
   "main": "index.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BestDevOpsTeam/API-QR-yesid.git"
+    "url": "git+https://github.com/BestDevOpsTeam/API-QR-JuanParra.git"
   },
   "keywords": [
     "qr"
   ],
-  "author": "yesid",
+  "author": "Juan Parra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BestDevOpsTeam/API-QR-yesid/issues"
+    "url": "https://github.com/BestDevOpsTeam/API-QR-JuanParra/issues"
   },
-  "homepage": "https://github.com/BestDevOpsTeam/API-QR-yesid#readme",
+  "homepage": "https://github.com/BestDevOpsTeam/API-QR-JuanParra#readme",
   "dependencies": {
     "chai": "^4.3.7",
     "chai-http": "^4.3.0",
