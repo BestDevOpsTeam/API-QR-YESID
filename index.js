@@ -1,6 +1,6 @@
 const express = require("express")
 const bodyParser = require('body-parser');
-const HTTP_PORT = 8015;
+const HTTP_PORT = 8014;
 const app = express();
 const qr = require('./qr.js');
 
