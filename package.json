@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BestDevOpsTeam/API-QR-JuanParra.git"
+    "url": "git+https://github.com/BestDevOpsTeam/API-QR-yesid.git"
   },
   "keywords": [
     "qr"
@@ -17,9 +17,9 @@
   "author": "yesid",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BestDevOpsTeam/API-QR-JuanParra/issues"
+    "url": "https://github.com/BestDevOpsTeam/API-QR-yesid/issues"
   },
-  "homepage": "https://github.com/BestDevOpsTeam/API-QR-JuanParra#readme",
+  "homepage": "https://github.com/BestDevOpsTeam/API-QR-yesid#readme",
   "dependencies": {
     "chai": "^4.3.7",
     "chai-http": "^4.3.0",
